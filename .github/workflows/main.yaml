@@ -39,7 +39,7 @@ jobs:
         id: docker_login
         uses: docker/login-action@v3
         with:
-          username: ${{ vars.DOCKER_USERNAME }}
+          username: "briiann70"
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       # 5. Build and push the Docker image.
